@@ -124,7 +124,7 @@ void selectionSort(int arr[], int n) {
 
 // 3. Пузырьковая сортировка с флагом
 void bubbleSort(int arr[], int n) {
-    printf("\n========== PUZYRYKOVAYA SORTIROVKA (s flagom) ==========\n");
+    printf("\n========== ПУЗЫРЬКОВАЯ СОРТИРОВКА С ОПТИМИЗАЦИЕЙ ==========\n");
     printArray(arr, n, "Nachalnyj massiv");
     printf("([elementy] - otsortirovannaya chast)\n\n");
 
