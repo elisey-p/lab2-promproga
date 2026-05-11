@@ -19,6 +19,8 @@ void printArray(int arr[], int n, const char* message) {
 }
 
 // 1. Сортировка вставками
+// Алгоритм: берём элемент и вставляем его в нужное место в отсортированной части
+// код функции
 void insertionSort(int arr[], int n) {
     printf("\n========== SORTIROVKA VSTAVKAMI ==========\n");
     printArray(arr, n, "Nachalnyj massiv");
