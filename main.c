@@ -377,7 +377,7 @@ int main() {
     printf("   PROGRAMMA SORTIROVOK                      \n");
     printf("==============================================\n\n");
 
-    printf("Vvedite razmer massiva: ");
+    printf("Введите количество элементов массива: ");
     
     if (scanf("%d", &n) != 1) {
         printf("Oshibka vvoda! Vvedite tseloe chislo.\n");
