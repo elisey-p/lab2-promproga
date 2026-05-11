@@ -1,3 +1,8 @@
+/*
+ * Программа демонстрации алгоритмов сортировки
+ * Автор: Elisey P
+ * Версия: 1.0
+ */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,8 +18,13 @@ void printArray(int arr[], int n, const char* message) {
     printf("\n");
 }
 
-// 1. Сортировка вставками
+/**
+ * Сортировка вставками
+ * @param arr - массив для сортировки
+ * @param n - размер массива
+ */
 void insertionSort(int arr[], int n) {
+    if (arr == NULL || n <= 0) return; // Проверка на NULL
     printf("\n========== SORTIROVKA VSTAVKAMI ==========\n");
     printArray(arr, n, "Nachalnyj massiv");
     printf("([elementy] - otsortirovannaya chast)\n\n");
